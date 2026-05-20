@@ -1,0 +1,23 @@
+# Backend secrets
+backend/src/main/resources/application-local.properties
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Build
+backend/target/
+*.jar
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

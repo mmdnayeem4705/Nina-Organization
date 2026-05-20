@@ -1,0 +1,8 @@
+# Copy to application-local.properties and set YOUR MySQL root password.
+
+spring.datasource.url=jdbc:mysql://localhost:3306/nina_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=YOUR_MYSQL_ROOT_PASSWORD
+
+# Use this if you ran database/02-create-tables.sql manually:
+# spring.jpa.hibernate.ddl-auto=validate
